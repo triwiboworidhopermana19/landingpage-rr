@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: 'https://github.com/triwiboworidhopermana19/landingpage-rr',
   plugins: [vue(), tailwindcss(), vueDevTools()],
   resolve: {
     alias: {
